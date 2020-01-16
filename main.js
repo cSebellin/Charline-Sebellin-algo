@@ -11,4 +11,5 @@ console.log(UniqueStr('Tes'));
 console.log(Reverse('Test'));
 
 console.log(Anagram('Test', 'tres'));
-
+console.log(Anagram('Test', 'etTs'));
+console.log(Anagram('Test', 'Test'));

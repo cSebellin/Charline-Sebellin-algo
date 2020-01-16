@@ -11,13 +11,17 @@ module.exports = function Anagram(str1='', str2=''){
         charStr2[i] = str2[i]
     }
 
-    for(let item of charStr1){
-        for(let i of charStr2){
-            if(charStr1[item] === charStr2[i]){
-                answer = true; 
-            }   
-        }
-    }
+    // for(let item of charStr1){
+    //     for(let i of charStr2){
+    //         if(Object.is(charStr1 === charStr2)){
+    //             answer = true; 
+    //         }   
+    //     }
+    // }
+
+    if(charStr1 === charStr2){
+        answer = true; 
+    }   
     return answer
     
 }
